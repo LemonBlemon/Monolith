@@ -39,7 +39,7 @@
       types:
         Slash: 38
   - type: Item
-    size: Normal
+    size: Large # Increased from normal to large to make damage make more sense
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_blade.rsi
     slots:
@@ -75,9 +75,9 @@
       types:
         Blunt: 10
         Slash: 15
-        Structural: 10
+        Structural: 30 # increased from 10 to 30 to be even remotely useable as a structural weapon
   - type: Item
-    size: Ginormous
+    size: Huge # decreased size from Ginormous to Huge to be mildly more usable
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_halberd.rsi
     quickEquip: false
