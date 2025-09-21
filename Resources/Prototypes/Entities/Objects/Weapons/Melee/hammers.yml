@@ -25,8 +25,8 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 15 # increased damage from 10 to 15 so its no longer worse than a combat knife
-        Structural: 10 # increased damage from 10 to 30 so its actually usable as a structural weapon
+        Blunt: 15 # Mono increased damage from 10 to 15 so its no longer worse than a combat knife
+        Structural: 30 # Mono increased damage from 10 to 30 so its actually usable as a structural weapon
   - type: Item
     size: Large
 
