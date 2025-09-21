@@ -77,7 +77,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 32 #cmon, it has to be at least BETTER than the rest. # increased damage again from 27 to 32 to be on-par with other large sized melee weapons
+        Slash: 32 #cmon, it has to be at least BETTER than the rest. # Mono increased damage again from 27 to 32 to be on-par with other large sized melee weapons
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
@@ -114,7 +114,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 #increased from 22 to 32 to be on-par with other large sized melee weapons
+        Slash: 32 # Mono increased from 22 to 32 to be on-par with other large sized melee weapons
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -169,7 +169,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 # this amount of slash is now treated as the "base" for all large sized melee weapons
+        Slash: 32 # Mono this amount of slash is now treated as the "base" for all large sized melee weapons
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -182,7 +182,7 @@
     - suitStorage
 
 - type: entity
-  name: claymore # pending future re-work, this will ideally be a wieldable weapon
+  name: claymore # Mono TODO: make this a wieldable weapon
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: Claymore
   description: An ancient war blade.
@@ -193,11 +193,11 @@
     attackRate: 0.75
     damage:
       types:
-        Slash: 40 # increased from 38 to 40 to be moderately better for its awful attackrate
+        Slash: 40 # Mono increased from 38 to 40 to be moderately better for its awful attackrate
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Huge # increased from large to huge to reflect its supreme bigness, hopefully this works
+    size: Huge # Mono increased from large to huge to reflect its supreme bigness, hopefully this works
   - type: Clothing
     sprite: Objects/Weapons/Melee/claymore.rsi
     slots:
@@ -219,7 +219,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 # increased from 26 to 32 to be on-par with other large sized melee weapons
+        Slash: 32 # Mono increased from 26 to 32 to be on-par with other large sized melee weapons
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
