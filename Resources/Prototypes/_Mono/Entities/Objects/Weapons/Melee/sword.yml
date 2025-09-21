@@ -22,7 +22,7 @@
      wideAnimationRotation: -60
      damage:
        types: # It's still incredibly strong, but -reasonable-
-         Slash: 25 # increased slash damage from 20 to 25 in an attempt to not let it be outclassed by normal weapons, the shock is still doing the heavy lifting here
+         Slash: 25 # Mono increased slash damage from 20 to 25 in an attempt to not let it be outclassed by normal weapons, the shock is still doing the heavy lifting here
          Shock: 6
          Structural: 25 # Ion doesn't exist, according to Proto manager.
    - type: Item
@@ -58,7 +58,7 @@
     wideAnimationRotation: -60
     damage:
       types:
-        Slash: 25 # increased slash damage from 20 to 25 in an attempt to not let it be outclassed by normal weapons, the shock and heat are still doing the heavy lifting here
+        Slash: 25 # Mono increased slash damage from 20 to 25 in an attempt to not let it be outclassed by normal weapons, the shock and heat are still doing the heavy lifting here
         Heat: 12
         Shock: 6
         Structural: 40
