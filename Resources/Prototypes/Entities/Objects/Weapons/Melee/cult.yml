@@ -54,8 +54,10 @@
     damage:
       types:
         Slash: 38
+    soundHit: # Mono nearly forgot, this weapon makes no noise so i gave it the slash sound, i had been planning on adding this but i forgot until i re-opened the file
+      collection: Slash 
   - type: Item
-    size: Large # Increased from normal to large to make damage make more sense
+    size: Large # Mono Increased from normal to large to make damage make more sense
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_blade.rsi
     slots:
@@ -91,9 +93,9 @@
       types:
         Blunt: 10
         Slash: 15
-        Structural: 30 # increased from 10 to 30 to be even remotely useable as a structural weapon
+        Structural: 30 # Mono increased from 10 to 30 to be even remotely useable as a structural weapon
   - type: Item
-    size: Huge # decreased size from Ginormous to Huge to be mildly more usable
+    size: Huge # Mono decreased size from Ginormous to Huge to be mildly more usable
   - type: Clothing
     sprite: Objects/Weapons/Melee/cult_halberd.rsi
     quickEquip: false
